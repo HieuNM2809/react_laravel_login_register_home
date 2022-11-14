@@ -9,18 +9,18 @@ export default class Signup extends Component {
     constructor(props) {
         super(props);
         this.state = {
-        signupData: {
-            name: "",
-            email: "",
-            phone: "",
-            password: "",
-            isLoading: "",
-        },
-        msg: "",
-        errName: "",
-        errEmail: "",
-        errSDT: "",
-        errMK: "",
+            signupData: {
+                name: "",
+                email: "",
+                phone: "",
+                password: "",
+                isLoading: "",
+            },
+            msg: "",
+            errName: "",
+            errEmail: "",
+            errSDT: "",
+            errMK: "",
         };
     }
 
@@ -71,7 +71,7 @@ export default class Signup extends Component {
     render() {
         const isLoading = this.state.isLoading;
         const login = localStorage.getItem("isLoggedIn");
-        let text = 'Sign In';
+        let text = 'Sign In ';
         if (login) {
             text = 'Home';
         }

@@ -3,7 +3,7 @@ import "./App.css";
 import Signup from "./components/signUp/Signup";
 import Signin from "./components/SignIn/Signin";
 import Home from "./components/Home/Home";
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 export default class App extends Component {
   render() {
